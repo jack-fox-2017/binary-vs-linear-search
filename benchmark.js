@@ -15,15 +15,8 @@ let linearSearch = (target, values) => {
 
 ///////
 
-function binarySearch(search, array, start, end) {
+function binarySearch(search, array, start = 0, end = array.length - 1) {
   // Your searching code
-
-  if (start == undefined) {
-    start = 0;
-  }
-  if (end == undefined) {
-    end = array.length - 1;
-  }
 
   let mid = Math.floor((start + end) / 2);
   if (end < start) {
