@@ -59,6 +59,7 @@ suite
   .add('binarySearch#1juta', function () {
     binarySearch(arrsejuta, sejutatest);
   })
+  // add listeners
   .on('cycle', function (event) {
     console.log(String(event.target));
   })
