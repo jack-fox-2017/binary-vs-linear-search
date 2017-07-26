@@ -52,18 +52,7 @@ let sejutatest = 777777
 
 var suite = new Benchmark.Suite;
 
-suite.add('linearSearch#seribu', function () {
-    linearSearch(arrsribu, seributest);
-  })
-  .add('binarySearch#seribu', function () {
-    binarySearch(arrsribu, seributest);
-  })
-  .add('binarySearch#10ribu', function () {
-    binarySearch(arrsejuta, sepuluhributest);
-  })
-  .add('binarySearch#10ribu', function () {
-    binarySearch(arrsejuta, sepuluhributest);
-  })
+suite
   .add('linearSearch#1juta', function () {
     linearSearch(arrsejuta, sejutatest);
   })
